@@ -5,7 +5,7 @@
 body{
     padding:0;
     margin:0;
-    background:linear-gradient(to right, rgb(0, 0, 0), rgb(62, 61, 75), rgb(0, 0, 0));
+    background:linear-gradient(to right, rgb(0, 0, 0), rgb(99, 97, 116), rgb(0, 0, 0));
 }
 .calculator{
     display:flex;
@@ -13,6 +13,7 @@ body{
     justify-content:center;
     align-items:center;
     min-height:100vh;
+    border:1px solid rgb(135, 159, 163);
 }
 .calc-body{
     width:fit-content;
@@ -81,4 +82,13 @@ body{
 .answers{
     color:rgb(13, 18, 24);
     font-size:1.8rem;
+}
+
+@media screen and (max-width:400px){
+    body{
+        background-color:rgb(99, 97, 116);
+    }
+    .calculator{
+        padding:0px;
+    }
 }
