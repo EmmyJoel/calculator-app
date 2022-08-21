@@ -86,7 +86,7 @@ body{
 
 @media screen and (max-width:400px){
     body{
-        background:rgb(211, 208, 238);
+        background:white;
     }
     .calculator{
         padding:0px;
