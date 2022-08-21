@@ -1,0 +1,11 @@
+###Calculator App with JavaScript
+
+- Wrote my first Javascript codes working on this calculator app from Web Dev Simplified.
+
+- Well okay to handle basic mathematical calculations.
+
+- Added a little fancier styling tho. 
+
+- Links:
+- Youtube video [https://youtu.be/j59qQ7YWLxw]
+- Product link []

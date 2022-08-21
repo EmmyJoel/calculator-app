@@ -1,0 +1,84 @@
+*, *::before, *::after{
+    box-sizing:border-box;
+    font-family:arial;
+}
+body{
+    padding:0;
+    margin:0;
+    background:linear-gradient(to right, rgb(0, 0, 0), rgb(62, 61, 75), rgb(0, 0, 0));
+}
+.calculator{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+.calc-body{
+    width:fit-content;
+    display:grid;
+    justify-content:center;
+    align-content:center;
+    grid-template-columns: repeat(4, 60px);
+    grid-template-rows: minmax(100px, auto) repeat(5, 65px);
+    background-color:rgb(24, 20, 20);
+    border:25px inset;
+    border-radius:15px;
+    border-top-color: rgb(86, 102, 102);
+    border-right-color:rgb(12, 12, 12);
+    border-bottom-color:rgb(14, 15, 15);
+    border-left-color:rgb(96, 101, 102);
+}
+.calc-body > button{
+    cursor:pointer;
+    font-weight:bold;
+    font-size:1.5rem;
+    outline:none;
+    color:rgb(0, 0, 0);
+    background-color:rgb(144, 147, 150);
+    line-height:65px;
+    border-radius:10px;
+}
+.calc-body > button:hover{
+    background-color:rgb(103, 105, 105);
+}
+.span-two{
+    grid-column:span 2;
+}
+.calc-body .signs{
+    background-color:rgba(88, 98, 99, 0.993)
+}
+.calc-body .ac, .calc-body .del {
+    background-color:rgb(177, 2, 2);
+    color:rgba(253, 253, 253, 0.774);
+    font-size:1.1rem;
+}
+.calc-body .ac:hover, .calc-body .del:hover{
+    background-color:rgba(160, 8, 8, 0.692);
+    color:rgba(253, 253, 253, 0.774);
+}
+.display{
+    grid-column:1/-1;
+    background-color:rgba(89, 126, 126, 0.986);
+    border:10px inset rgba(116, 121, 121, 0.521);
+    border-left-color:  rgba(87, 110, 109, 0.623);
+    border-right-color: rgba(36, 43, 44, 0.753);
+    border-bottom-color:rgba(51, 57, 59, 0.589);
+    border-radius:5px;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    justify-content:space-between;
+    font-weight:bold;
+    padding:10px;
+    word-wrap:break-word;
+    word-break:break-all;
+}
+.operations{
+    color:rgb(30, 31, 34);
+    font-size:1.5rem;
+}
+.answers{
+    color:rgb(13, 18, 24);
+    font-size:1.8rem;
+}
