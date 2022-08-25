@@ -5,7 +5,7 @@
 body{
     padding:0;
     margin:0;
-    background:linear-gradient(to right, rgb(0, 0, 0), rgb(99, 97, 116), rgb(0, 0, 0));
+    background:linear-gradient(to right, rgb(99, 97, 116), rgb(138, 136, 136), rgb(99, 97, 116));
 }
 .calculator{
     display:flex;

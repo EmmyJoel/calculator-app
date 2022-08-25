@@ -2,7 +2,7 @@
 
 - Wrote my first Javascript codes working on this calculator app from Web Dev Simplified.
 
-- Well okay to handle basic mathematical calculations.
+- Just enough okay to handle basic mathematical calculations.
 
 - Added a little fancier styling tho. 
 
